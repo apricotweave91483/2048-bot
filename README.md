@@ -1,4 +1,6 @@
-# What to do
+# What to do/
+
+From the 2048-bot directory:
 
 make a venv: python3 -m venv 2048env
 
@@ -6,18 +8,18 @@ activate the venv: source 2048env/bin/activate
 
 install the requirements: pip3 install -r requirements.txt
 
-# Then go to the app directory
+# Then go to the "app" directory/
 
 compile the C program: gcc -O3 -march=native -o strategy_2048 strategy_2048.c -lm -lpthread
 
-run it: python3 bot_2048.py
+run the bot: python3 bot_2048.py
 
 ---
 
 **Directory layout**
 
 ```
-2048/
+2048-bot/
 ├── README.md
 ├── requirements.txt
 ├── app/
