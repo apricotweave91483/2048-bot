@@ -17,14 +17,23 @@ run it: python3 bot_2048.py
 Directory layout:
 
 2048/
+
   README.md
+
   requirements.txt
+
   app/
+
     bot_2048.py          (main script)
+
     board_vision.py      (calibration, screen grab, color matching)
+
     strategy_2048.c      (expectimax search; compile to strategy_2048 binary here)
+
     2048_colors.json     (tile value -> RGB; loaded and updated by the bot)
+
   utilities/
+
     color_probe.py       (utility: hover over a tile, press Enter to print its RGB for adding to the JSON)
 
 ---
