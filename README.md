@@ -1,4 +1,4 @@
-## What to do
+### What to do
 
 From the 2048-bot directory:
 
@@ -6,9 +6,9 @@ make a venv: python3 -m venv 2048env
 
 activate the venv: source 2048env/bin/activate
 
-install the requirements: pip3 install -r requirements.txt
+install the requirements: pip3 install -r requirements.txt 
 
-## Then go to the "app" directory/
+### Then go to the "app" directory
 
 compile the C program: gcc -O3 -march=native -o strategy_2048 strategy_2048.c -lm -lpthread
 
@@ -33,7 +33,7 @@ run the bot: python3 bot_2048.py
 
 ---
 
-## Summary
+### Summary
 
 The bot plays 2048 on play2048.co. It grabs the board from the screen (pyautogui), matches tile colors to values using 2048_colors.json, then picks a move. The heavy search (expectimax) runs in the compiled C binary; Python just reads the board and sends arrow keys.
 
